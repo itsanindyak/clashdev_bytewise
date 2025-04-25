@@ -1,30 +1,59 @@
-body{
+*{
+    padding:0px;
+    margin: 0px;
     background-color: black;
-    height: 100vh;
+}
+
+h2{
     width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+#reset{
+    
+    padding: 50px 5vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     
 }
-body .box{
-    background-color: rgba(255, 255, 255, 0.322);
-    height: 50vh;
-    width: 50vh;
-    /* display: flex; */
-    /* justify-content: center; */
 
-    position: absolute;
+#reset input{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+    padding: 0px 3px;
+}
+
+#reset button{
+    color: white;
+    background-color: gray;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+#reset :hover{
+    background-color: rgb(78, 78, 78);
+}
+
+#main{
+    color: white;
     
-}   
-.box .title
-{
-    color: rgba(255, 255, 255, 0.562);
+}
+
+
+
+#main ul li{
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.username{
+    font-weight: 900;
     font-size: x-large;
-    
-    align-items: center;
-
-    justify-content: center;
-    text-align: center;
-
 }
