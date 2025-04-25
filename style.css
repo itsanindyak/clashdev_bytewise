@@ -4,11 +4,27 @@
     background-color: black;
 }
 
+h2{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
 #reset{
+    
     padding: 50px 5vh;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     
+}
+
+#reset input{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+    padding: 0px 3px;
 }
 
 #reset button{
@@ -35,4 +51,9 @@
     line-height: 50px;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.username{
+    font-weight: 900;
+    font-size: x-large;
 }
