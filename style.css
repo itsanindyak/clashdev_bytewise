@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin: 0px;
+    background-color: black;
+}
+
+#reset{
+    padding: 50px 5vh;
+    display: flex;
+    justify-content: end;
+    
+}
+
+#reset button{
+    color: white;
+    background-color: gray;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+#reset :hover{
+    background-color: rgb(78, 78, 78);
+}
+
+#main{
+    color: white;
+    
+}
+
+
+
+#main ul li{
+    text-decoration: none;
+    line-height: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
